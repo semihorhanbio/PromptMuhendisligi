@@ -1,1 +1,19 @@
 site_name: Herkes Için Prompt Mühendisliği
+theme:
+  name: material
+  features:
+    - navigation.sections # Adds sections in the navigation
+    - navigation.indexes # Adds index pages for sections
+    - navigation.top # Adds back-to-top button
+    - toc.integrate # Integrates table of contents into navigation
+    - toc.follow # Makes TOC follow scroll
+    - search.suggest # Enables search suggestions
+    - search.highlight # Highlights search terms
+    - navigation.footer # Adds next/previous page buttons
+    - navigation.path
+
+nav:
+  - Ana Sayfa: index.md
+  - Modül 1:
+      - Prompt Mühendisliğine Genel Bakış:
+          - Üretken Yapay Zeka: modules/module1/lesson1.md
