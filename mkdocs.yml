@@ -1,6 +1,1 @@
-site_name: Herkes IcIn Yapay Zeka
-nav:
-  - Home: index.md
-  - About: about.md
-theme:
-  name: material
+site_name: Herkes Için Prompt Mühendisliği
